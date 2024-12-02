@@ -20,42 +20,49 @@
                     </button>
                     <div class="collapse navbar-collapse d-sm-inline-flex justify-content-center">
                         <ul class="navbar-nav flex-grow-0">
-                            <li class="nav-item">  @*logo web*@
+
+                            @*logo web*@
+                            <li class="nav-item">  
                                 <a>
-                                    <img src="~/Images/HuyHenHa.png" alt="logo" />
+                                    <img src="~/Images/icon_header_layout/HuyHenHa.png" alt="logo" style="width:270px;height:100px;"/>
                                 </a>
                             </li>
-                            <li class="nav-item">  @*thanh tìm kiếm*@
+
+                            @*thanh tìm kiếm*@
+                            <li class="nav-item">  
                                 <div class="search">
                                     <form>
                                         <button type="submit" class="TimKiem_icon">
-                                            <img src="~/Images/icon_search.png" />
+                                            <img src="~/Images/icon_header_layout/icon_search.png" />
                                         </button>
                                         <input type="text" class="TimKiem_text" name="search_text" placeholder="tim kiem" />
 
                                     </form>
                                 </div>
                             </li>
-                            <li class="nav-item1">  @*nút đăng nhập*@
+
+                            @*nút đăng nhập*@
+                            <li class="nav-item1">  
                                 <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_user.png" />
+                                    <img src="~/Images/icon_header_layout/icon_user.png" />
                                     Đăng nhập
                                 </a>  
                             </li>
-                            <li class="nav-item1"> @*Giỏ hàng*@
+
+                            @*Giỏ hàng*@
+                            <li class="nav-item1"> 
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_cart.png" />
+                                    <img src="~/Images/icon_header_layout/icon_cart.png" />
                                     Giỏ hàng
                                 </a>
                             </li>
                             <li class="nav-item1">
                                 <a class="nav-link text-dark d-flex justify-content-between align-items-center" asp-area="" asp-controller="Home" asp-action="Index" style="width:300px; text-align:justify">
                                     <span class="d-flex align-items-center">
-                                        <img src="~/Images/icon_location.png" />
+                                        <img src="~/Images/icon_header_layout/icon_location.png" />
                                         Hồ Chí Minh
                                     </span>
-                                    
-                                    <img src="~/Images/icon_arrow_right.png" style="text-align:right"/>
+                                    <img src="~/Images/icon_header_layout/icon_arrow_right.png" style="text-align:right" />
                                 </a>
                             </li>
                         </ul>
@@ -75,7 +82,7 @@
                             @*Điện thoại*@
                             <li class="nav-item1">
                                 <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_iphone.png" style="margin-bottom:3px" />
+                                    <img src="~/Images/icon_header_layout/icon_iphone.png" style="margin-bottom:3px" />
                                     Điện thoại
                                 </a>
                             </li>
@@ -83,23 +90,32 @@
                             @*Laptop*@
                             <li class="nav-item1">
                                 <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_laptop.png" style="margin-bottom:3px" />
+                                    <img src="~/Images/icon_header_layout/icon_laptop.png" style="margin-bottom:3px" />
                                     Laptop
                                 </a>
                             </li>
 
                             @*Phụ kiện*@
-                            <li class="nav-item1">
-                                <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_headphone.png" style="margin-bottom:3px" />
+                            <li class="nav-item1 dropdown">
+                                <a class="nav-link text-black dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Index">
+                                    <img src="~/Images/icon_header_layout/icon_headphone.png" style="margin-bottom:3px" />
                                     Phụ kiện
                                 </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu-items">
+                                        <strong>Phụ kiện di động</strong>
+                                        <a class="dropdown-item" href="#">Item 1</a>
+                                        <a class="dropdown-item" href="#">Item 2</a>
+                                        <a class="dropdown-item" href="#">Item 3</a>
+                                    </div>
+                                </div>
+
                             </li>
 
                             @*Smartwatch*@
                             <li class="nav-item1">
                                 <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_smartwatch.png" style="margin-bottom:3px" />
+                                    <img src="~/Images/icon_header_layout/icon_smartwatch.png" style="margin-bottom:3px" />
                                     Smartwatch
                                 </a>
                             </li>
@@ -107,7 +123,7 @@
                             @*Đồng hồ*@
                             <li class="nav-item1">
                                 <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_watch.png" style="margin-bottom:3px" />
+                                    <img src="~/Images/icon_header_layout/icon_watch.png" style="margin-bottom:3px" />
                                     Đồng hồ
                                 </a>
                             </li>
@@ -115,41 +131,52 @@
                             @*Tablet*@
                             <li class="nav-item1">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_tablet.png" style="margin-bottom:3px" />
+                                    <img src="~/Images/icon_header_layout/icon_tablet.png" style="margin-bottom:3px" />
                                     Tablet
                                 </a>
                             </li>
 
                             @*Máy cũ, Thu cũ*@
-                            <li class="nav-item1">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_broken_phone.png" style="margin-bottom:3px" />
+                            <li class="nav-item1 dropdown">
+                                <a class="nav-link text-dark dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Index">
+                                    <img src="~/Images/icon_header_layout/icon_broken_phone.png" style="margin-bottom:3px" />
                                     Máy cũ, Thu cũ
                                 </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div>
+                                        <strong>Phụ kiện di động</strong>
+                                        <a class="dropdown-item" href="#">Item 1</a>
+                                        <a class="dropdown-item" href="#">Item 2</a>
+                                        <a class="dropdown-item" href="#">Item 3</a>
+                                    </div>
+
+                                </div>
                             </li>
 
                             @*PC, Máy in*@
-                            <li class="nav-item1">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_workstation.png" style="margin-bottom:3px" />
+                            <li class="nav-item1 dropdown">
+                                <a class="nav-link text-dark dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Index">
+                                    <img src="~/Images/icon_header_layout/icon_workstation.png" style="margin-bottom:3px" />
                                     PC, Máy in
                                 </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Item 1</a>
+                                    <a class="dropdown-item" href="#">Item 2</a>
+                                    <a class="dropdown-item" href="#">Item 3</a>
+                                </div>
                             </li>
 
                             @*Sim, Thẻ cào*@
-                            <li class="nav-item1">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_sim.png" style="margin-bottom:3px" />
+                            <li class="nav-item1 dropdown">
+                                <a class="nav-link text-dark dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Index">
+                                    <img src="~/Images/icon_header_layout/icon_sim.png" style="margin-bottom:3px" />
                                     Sim, Thẻ cào
                                 </a>
-                            </li>
-
-                            @*Dịch vụ tiện ích*@
-                            <li class="nav-item1">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                                    <img src="~/Images/icon_policy.png" style="margin-bottom:3px" />
-                                    Dịch vụ tiện ích
-                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Item 1</a>
+                                    <a class="dropdown-item" href="#">Item 2</a>
+                                    <a class="dropdown-item" href="#">Item 3</a>
+                                </div>
                             </li>
 
                         </ul>
