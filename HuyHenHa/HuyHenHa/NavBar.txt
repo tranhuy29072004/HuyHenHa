@@ -1,0 +1,42 @@
+﻿1. Các Lớp Cơ Bản
+ - navbar: Lớp cơ bản để tạo thanh điều hướng. Nó cung cấp các kiểu dáng cơ bản cho navbar.
+ - navbar-brand: Dùng để định nghĩa thương hiệu hoặc tiêu đề của navbar. Thường được sử dụng cho logo hoặc tên của trang web.
+ - navbar-nav: Dùng để tạo danh sách các liên kết trong navbar. Thường được sử dụng với thẻ <ul>.
+ - nav-item: Dùng để định nghĩa một mục trong danh sách navbar. Thường được sử dụng với thẻ <li>.
+ - nav-link: Dùng để định nghĩa một liên kết trong navbar. Thường được sử dụng với thẻ <a>.
+
+
+2. Các Lớp Mở Rộng
+ - navbar-expand-*: Dùng để xác định điểm mà navbar sẽ mở rộng. Các giá trị có thể là:
+   - navbar-expand-sm: Mở rộng trên các màn hình nhỏ và lớn hơn.
+   - navbar-expand-md: Mở rộng trên các màn hình vừa và lớn hơn.
+   - navbar-expand-lg: Mở rộng trên các màn hình lớn và lớn hơn.
+   - navbar-expand-xl: Mở rộng trên các màn hình rất lớn.
+ - navbar-toggleable-*: Lớp này đã không còn được sử dụng trong các phiên bản Bootstrap mới hơn, nhưng trong các phiên bản cũ hơn, nó được dùng để điều chỉnh cách thức navbar hiển thị.
+
+
+3. Các Lớp Kiểu Dáng
+ - bg-*: Dùng để thiết lập màu nền cho navbar. Ví dụ:
+   - bg-light: Nền sáng.
+   - bg-dark: Nền tối.
+   - bg-primary: Nền màu chính (thường là màu xanh).
+   - bg-transparent: Nền trong suốt.
+ - text-*: Dùng để thiết lập màu văn bản trong navbar. Ví dụ:
+   - text-light: Văn bản sáng.
+   - text-dark: Văn bản tối.
+   - text-primary: Văn bản màu chính.
+
+
+4. Các Lớp Khoảng Cách
+ - m-*: Dùng để thiết lập margin (khoảng cách bên ngoài). Ví dụ:
+   - mb-*: Margin-bottom (khoảng cách dưới).
+   - mt-*: Margin-top (khoảng cách trên).
+   - ml-*: Margin-left (khoảng cách bên trái).
+   - mr-*: Margin-right (khoảng cách bên phải).
+ - p-*: Dùng để thiết lập padding (khoảng cách bên trong). Tương tự như các lớp margin.
+
+5. Các Lớp Khác
+ - collapse: Dùng để tạo hiệu ứng thu gọn cho navbar trên các màn hình nhỏ.
+ - collapse navbar-collapse: Kết hợp hai lớp này sẽ cho phép navbar thu gọn và mở rộng khi nhấn vào nút điều hướng.
+ - dropdown: Dùng để tạo một menu thả xuống trong navbar.
+
